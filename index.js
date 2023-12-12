@@ -5,10 +5,10 @@ const xmasGifts = ['guitar 🎸', 'skates ⛸️', 'bear 🧸', 'magnet 🧲', '
  * 1. Sort the array twice. Alphabetically and reverse alphabetically.  
  **/
 
-const sortedAZ = /* write code here */
+const sortedAZ = xmasGifts.sort()
 console.log('A-Z: ', sortedAZ) 
 //["bear 🧸", "games console 🎮 ", "guitar 🎸", "jewellery 💍", "kite 🪁", "laptop 💻", "scarf 🧣", "skates ⛸️"]
 
-const sortedZA = /* write code here */
+const sortedZA = sortedAZ.reverse()
 console.log('Z-A: ', sortedZA) 
 //["skates ⛸️", "scarf 🧣", "laptop 💻", "kite 🪁", "jewellery 💍", "guitar 🎸", "games console 🎮 ", "bear 🧸"]
